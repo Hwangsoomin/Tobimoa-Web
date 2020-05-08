@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Tobimoa Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimcodingvv/Tobimoa.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "kimcoding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimcodingvv/Tobimoa/issues"
+  },
+  "homepage": "https://github.com/kimcodingvv/Tobimoa#readme",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
