@@ -32,7 +32,7 @@
           추가하기
         </span>
       </v-btn>
-      <v-dialog v-model="addDialog.show" persistent max-width="300px">
+      <v-dialog v-model="addDialog.show" persistent max-width="400px">
         <v-card>
           <v-card-title>
             <span class="headline">Add User</span>
@@ -54,7 +54,7 @@
             ></v-text-field>
             <v-text-field
               v-model="addDialog.password"
-              :append-icon="addDialog.show1 ? 'visibility_off' : 'visibility'"
+              :append-icon="addDialog.show1 ? 'fa-eye' : 'fa-eye-slash'"
               :rules="[addDialog.rules.required, addDialog.rules.min]"
               :type="addDialog.show1 ? 'text' : 'password'"
               class="ma-3"
@@ -90,7 +90,6 @@
       </v-snackbar>
     </v-col>
   </v-row>
-  
 </template>
 
 <script>
